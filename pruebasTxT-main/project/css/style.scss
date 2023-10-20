@@ -138,14 +138,14 @@ section{
    color:var(--black);
 }
 
-.heading{
+:heading{
    min-height: 30vh;
    display: flex;
    flex-flow: column;
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: rgb(179 56 112 / 78%) no-repeat;
+   background-color:rgb(231 91 181 / 78%) ;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -503,7 +503,7 @@ section{
 
 .contact form{
    margin:0 auto;
-   background-color: rgb(179 56 112 / 78%) ;
+   background-color: rgb(231 91 181 / 78%) ;
    border-radius: .5rem;
    border:var(--border);
    padding:2rem;
