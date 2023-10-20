@@ -1,15 +1,19 @@
 <?php
-if(isset($message)){
-   foreach($message as $message){
-      echo '
-      <div class="message">
-         <span>'.$message.'</span>
-         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-      </div>
-      ';
-   }
+
+include 'config.php';
+
+session_start();
+
+$user_id = $_SESSION['user_id'];
+
+if(!isset($user_id)){
+   header('location:login.php');
 }
+
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <header class="header">
    <div class="header-2">
       <div class="flex">
@@ -42,3 +46,10 @@ if(isset($message)){
    </div>
 
 </header>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/admin_style.css">
+</head>
+<body>
+    <p>manaos</p>
+</body>
+</html>
