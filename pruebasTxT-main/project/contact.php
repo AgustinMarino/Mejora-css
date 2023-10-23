@@ -27,6 +27,7 @@ if(isset($_POST['send'])){
    }
 }
 ?>
+<?php include 'layout/header.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +46,7 @@ if(isset($_POST['send'])){
 </head>
 <body>
    
-<?php include 'layout/header.php'; ?>
+
 
 <div class="heading">
    <h3>contactenos</h3>
