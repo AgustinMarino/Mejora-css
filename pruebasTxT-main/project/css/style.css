@@ -140,7 +140,7 @@ section {
   color: var(--black);
 }
 
-:heading {
+.heading {
   min-height: 30vh;
   display: flex;
   flex-flow: column;
