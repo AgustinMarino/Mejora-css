@@ -39,9 +39,16 @@ if(isset($_POST['send'])){
     <?php include 'layout/header.php';?>
 </head>
 <body>
-  <header class="box">
-    <h1>Ajustes</h1>
-</header>
+  <div class="box">
+    <h1>Ajustes de Cuenta
+            <span>Nombre de Usuari:</span>
+            <input type="email" name="email" required placeholder="ingresa tu email">
+            <span>email :</span>
+            <input type="email" name="email" required placeholder="ingresa tu email">
+    </h1>
+    <h1>Datos Personales</h1>
+    
+</div>
   <?php include 'layout/footer.php';?>
 <script src="js/script.js"></script>
 </body>
