@@ -891,11 +891,53 @@ section{
    background-color: rgb(255, 100, 200, 0.78);
    align-items: center;
    text-align: center;
+   font-size:10px;
    min-height: 5vh;
-   margin-right: 30%;
+   margin-right: 50%;
    margin-bottom: 10px;
    margin-left: 10px;
    margin-top: 20px;
    border-color: #1c1c1c;
-   border-radius: 100px;
+   border-radius: 15px;
+   height: 200px;
 }
+.capsulas-1{
+   display: flex;
+   font-size: medium;
+   flex-direction: column;
+   margin-bottom: 30px;
+
+}
+.capsulas-2{
+   display: flex;
+   font-size: medium;
+   flex-direction: column;
+   margin-bottom: 30px;
+
+}
+.datos-personales{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(255, 100, 200, 0.78);
+   align-items: center;
+   text-align: center;
+   min-height: 5vh;
+   margin-right: 30%;
+   margin-left: 10px;
+   margin-top: 20px;
+   border-color: #1c1c1c;
+   border-radius: 10000000px;
+}
+.Ajustes-de-cuenta{
+   color: #ffffff;
+   background-color:#bf168c;
+   border-radius: 10px;
+   width: 300px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+   
+
+
