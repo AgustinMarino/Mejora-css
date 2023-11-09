@@ -930,12 +930,18 @@ section{
    border-radius: 10000000px;
 }
 .Ajustes-de-cuenta{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
    color: #ffffff;
    background-color:#bf168c;
    border-radius: 10px;
    width: 300px;
    margin-bottom: 30px;
    margin-top: 30px;
+}
+.claro-oscuro{
+   display: flex;
 }
 
    

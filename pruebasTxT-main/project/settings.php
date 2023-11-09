@@ -39,8 +39,9 @@ if(isset($_POST['send'])){
     <?php include 'layout/header.php';?>
 </head>
 <body>
-  <div class="ajustescuenta">
-    <h1 class="Ajustes-de-cuenta">Ajustes de Cuenta</h1>        
+  <h1 class="claro-oscuro">Tema</h1>
+  <div class="ajustescuenta">      
+     <h1 class="Ajustes-de-cuenta">Ajustes de Cuenta</h1>        
             <h2 class="capsulas-1">
             <span></span>
             <input type="email" name="Nombre" required placeholder="Nombre de Usuario">
@@ -48,11 +49,10 @@ if(isset($_POST['send'])){
             <h2 class="capsulas-2">
             <span></span>
             <input type="email" name="contraseña" required placeholder="Contraseña">
-            </h2>
+            </h2>  
     <div>
-      
     </div>
-    
+   
     
 </div>
 <div class="datos-personales">
