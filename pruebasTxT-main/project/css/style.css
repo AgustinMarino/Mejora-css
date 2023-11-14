@@ -931,21 +931,4 @@ section {
 
 .claro-oscuro {
   display: flex;
-}
-
-switch {
-  background-color: black;
-  border-radius: 1000px;
-  border: none;
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  outline: none;
-}
-switch span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  display: block;
-  color: #fff;
 }/*# sourceMappingURL=style.css.map */
