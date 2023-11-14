@@ -35,13 +35,25 @@ if(isset($_POST['send'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="css/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
     <?php include 'layout/header.php';?>
 </head>
 <body>
-  <h1 class="claro-oscuro">Tema</h1>
-
+  <h1 class="claro-oscuro">
+  <dark-mode-toggle
+    id="dark-mode-toggle-1"
+    legend="tema"
+    appearance="toggle"
+    dark=""
+    light=""
+    remember="Remember this"
+  ></dark-mode-toggle>
+  </h1>
   <div class="ajustescuenta">      
      <h1 class="Ajustes-de-cuenta">Ajustes de Cuenta</h1>        
             <h2 class="capsulas-1">
