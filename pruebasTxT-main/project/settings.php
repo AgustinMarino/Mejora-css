@@ -35,11 +35,17 @@ if(isset($_POST['send'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/estilos.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <?php include 'layout/header.php';?>
 </head>
 <body>
   <h1 class="claro-oscuro">Tema</h1>
+  <button class="switch" id="switch">
+    <span><i class="fas fa-sun"></i></i></span>
+    <span><i class="fas fa-moon"></i></span>
+  </button>
   <div class="ajustescuenta">      
      <h1 class="Ajustes-de-cuenta">Ajustes de Cuenta</h1>        
             <h2 class="capsulas-1">
