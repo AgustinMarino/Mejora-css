@@ -52,27 +52,7 @@ if(isset($_POST['send'])){
     dark=""
     light=""
     remember="Remember this"
-  ></dark-mode-toggle>
-  </h1>
-  <div class="ajustescuenta">      
-     <h1 class="Ajustes-de-cuenta">Ajustes de Cuenta</h1>        
-            <h2 class="capsulas-1">
-            <span></span>
-            <input type="email" name="Nombre" required placeholder="Nombre de Usuario">
-            </h2>
-            <h2 class="capsulas-2">
-            <span></span>
-            <input type="email" name="contraseña" required placeholder="Contraseña">
-            </h2>  
-    <div>
-    </div>
-   
-    
-</div>
-<div class="datos-personales">
-<h1 class="Ajustes-de-cuenta">Datos Personales</h1>
-</div>
-  <?php include 'layout/footer.php';?>
+   ></dark-mode-toggle>
 <script src="js/script.js"></script>
 </body>
 </html>

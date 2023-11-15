@@ -21,12 +21,6 @@
     color: rgb(255, 255, 255);
     
 }
-.flex .navbar{
-    color: white;
-}
-.botones3{
-    color:white;
-}
 .claro-oscuro{
     display: flex;
     color: rgb(255, 255, 255);
@@ -36,7 +30,8 @@
     text-align: center;
     border-radius: 10px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 200px;
+    margin-left: 40%;
 }
 .footer{
     color: white;
