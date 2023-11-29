@@ -1,34 +1,43 @@
-:root{
-    --background-color:#ffffff ;
-}
-.html{
-    color: rgb(255, 255, 255);
-}
-.logo{
-    color: white;
-}
-.header{
-    color: white;
-    background-color: rgb(255, 255, 255);
-    border-color: #773ebc;
-}
-.header .header-2{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-.header-2 .div{
-    color: rgb(0, 0, 0);
-}
-.claro-oscuro{
-    display: flex;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 100, 200, 0.78);
-    width: 180px;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 200px;
-    margin-left: 40%;
+/* light.css */
+@import url('common.css');
+
+:root {
+    --background-color: #ffffff;
 }
 
+.header {
+    background-color: rgb(255, 255, 255);
+}
+
+.header .header-2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.claro-oscuro {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 100, 200, 0.78);
+}
+
+/* Add other light theme styles as needed */
+
+/* dark.css */
+@import url('common.css');
+
+:root {
+    --background-color: #2b2b2b;
+}
+
+.header {
+    background-color: rgb(92, 92, 92);
+}
+
+.header .header-2 {
+    background-color: rgb(85, 85, 85);
+}
+
+.claro-oscuro {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 100, 200, 0.78);
+}
+
+/* Add other dark theme styles as needed */

@@ -26,6 +26,12 @@ if(isset($_POST['send'])){
       $message[] = 'message sent successfully!';
    }
 }
+
+$theme = $_COOKIE['theme'] ?? 'light';
+
+echo "<link rel='stylesheet' href='css/$theme.css'>";
+
+setcookie('theme', $theme, time() + (365 * 24 * 60 * 60), '/');
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +41,7 @@ if(isset($_POST['send'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.scss">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" media="(prefers-color-scheme: light)" href="css/light.css">
     <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">

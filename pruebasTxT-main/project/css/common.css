@@ -1,0 +1,42 @@
+/* common.css */
+:root {
+    color-scheme: dark light;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.html {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    color: white;
+}
+
+.header {
+    color: white;
+    border-color: #773ebc;
+}
+
+.header .header-2 {
+    color: rgb(0, 0, 0);
+}
+
+.header-2 .div {
+    color: rgb(0, 0, 0);
+}
+
+.claro-oscuro {
+    display: flex;
+    width: 180px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+/* Add other common styles as needed */
